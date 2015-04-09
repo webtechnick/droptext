@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Billy Stuff</title>
+	</head>
+	<body>
+		<div style="display: none;">
+			<!-- These are just some basic elements so I don't have to write them out in javascript -->
+			<select id="basicSelect" name="basicSelect"></select>
+			<input type="text" id="basicText" name="basicText">
+		</div>
+		<div id="content">
+			<form id="the-form">
+				<button type="submit">Submit</button>
+			</form>
+			<div id="result"></div>
+		</div>
+
+	<script src="jquery-1.11.2.min.js"></script>
+	<script src="droptext.js"></script>
+	<script type="text/javascript">
+		$('#the-form').droptext();
+	</script>
+	</body>
+</html>
